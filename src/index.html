@@ -1,23 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>(Name Here) | Home</title>
   <meta charset="UTF-8">
   <meta name="description" content="Monetize your Discord server with (Name Here)">
   <meta name="keywords" content="Discord, Advertise, Discord Ads, AdCord, Advertising, Discord Server, Server, Discord Advertising">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .left-bar {
+      background-color: #ccc;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .right-bar {
+      background-color: #ddd;
+      height: 100vh;
+      flex: 1;
+    }
+
+    /* Media query for desktop devices */
+    @media only screen and (min-width: 768px) {
+      .left-bar {
+        width: 25%;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="left-bar>
-    
-  </div>
-  <div class="right-bar">
+  <!-- Left bar -->
+  <div class="left-bar"></div>
 
-  <script>
-    import platform from 'platform';
-
-    if (platform.isMobile) {
-      console.log("Mobile device detected");
-    } else {
-      console.log("Desktop device detected");
-    }
-  </script>
+  <!-- Right bar -->
+  <div class="right-bar"></div>
 </body>
+</html>
